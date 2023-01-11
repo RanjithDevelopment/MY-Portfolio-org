@@ -38,6 +38,7 @@ const Footer = () => {
                   This is me Ranjith, who is looking for career in Full Stack Development to Implement my Practical Knowldege and to Enlarge,Explore  My learnings To Next Level
                   </p>
                   <div className="social">
+                   
                   <FaGithub size={30} style={{ color: "#fff", marginRight: "1rem" }} />
                   <FaLinkedin size={30} style={{ color: "#fff", marginRight: "1rem" }} />
                   </div>
