@@ -18,8 +18,8 @@ const AboutContent = () => {
                     <FaReact size={30} style={{ color: "#fff", marginRight: "1rem" }} />
                     <FaNodeJs size={30} style={{ color: "#fff", marginRight: "1rem" }} />
                 </div>
-                <a href={CV} download="RanjithCv.pdf">
-                <button  className="btn">DownLoad MyCV</button>
+                <a href="https://drive.google.com/file/d/13s5kfHDqnCXWyoRh1jF-KHBjpH3HJW8n/view?usp=share_link" target="_blank">
+                <button  className="btn">View My CV</button>
                 </a>
                     
                 
