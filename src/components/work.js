@@ -17,7 +17,11 @@ const Work = () => {
                                 title={val.title}
                                 text={val.text}
                                 view={val.view}
-                                source={val.source} />
+                                source={val.source}
+                                frontend={val.frontend}
+                                backend={val.backend}
+                                database={val.database}
+                                 />
                         )
                     })
                 }
