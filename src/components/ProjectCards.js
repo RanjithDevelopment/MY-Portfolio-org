@@ -2,13 +2,12 @@ import "../css/projectCardstyle.css";
 import React from 'react'
 const ProjectCards = (props) => {
     return (
-        
         <div className="project-card">
         <img src={props.imgsrc} alt="true" />
         <h2 className="project-title">{props.title} </h2>
         <div className="pro-details">
             <p>{props.text} </p>
-            <h2 className="project-title" style={{marginLeft:"60px"}}>Tech  Stack  Used</h2>
+            <h2 className="project-title" style={{alignItems:"center",marginLeft:"60px"}}>TECH STACK</h2>
             <ul style= {{listStyleType:"disc",fontSize:"6",color:"white" ,marginLeft:"5px"}}>
              <li> <p style={{color:"red"}}> FRONTEND :</p> <p> {props.frontend}</p></li>
                 <li> <p style={{color:"red"}}> BACKEND :</p><p>{props.backend}</p></li>

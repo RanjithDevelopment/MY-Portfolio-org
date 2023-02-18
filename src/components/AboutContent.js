@@ -3,7 +3,6 @@ import React from 'react'
 // import { Link } from "react-router-dom";
 import Reactjs from "../assests/reactjs.png";
 import Nodejs from "../assests/nodejs.png";
-import CV from "../assests/RanjithCv.pdf";
 import { FaReact, FaHtml5, FaCss3Alt, FaJsSquare, FaNodeJs } from "react-icons/fa";
 const AboutContent = () => {
     return (
@@ -18,7 +17,7 @@ const AboutContent = () => {
                     <FaReact size={30} style={{ color: "#fff", marginRight: "1rem" }} />
                     <FaNodeJs size={30} style={{ color: "#fff", marginRight: "1rem" }} />
                 </div>
-                <a href="https://drive.google.com/file/d/13s5kfHDqnCXWyoRh1jF-KHBjpH3HJW8n/view?usp=share_link" target="_blank">
+                <a href="https://drive.google.com/file/d/1_t6GfdAI72SugDAUxyLH7pcEsf932QXb/view?usp=share_link" target="_blank" rel="noreferrer">
                 <button  className="btn">View My CV</button>
                 </a>
                     
