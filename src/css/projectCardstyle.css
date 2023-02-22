@@ -9,6 +9,7 @@ padding: 4rem 0 2rem 0;
    display: grid;
    grid-template-columns: repeat(3,1fr);
    grid-gap:40px; 
+   padding-top: 4rem;
    padding-bottom: 5rem;
 }
 .project-card{
